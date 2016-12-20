@@ -1,0 +1,1 @@
+﻿<%@ Application Codebehind="Global.asax.cs" Inherits="FinanceControl.UI.MvcApplication" Language="C#" %>

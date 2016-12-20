@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1 - Presentation", "1 - Presentation", "{D5C350E7-3A47-46AB-A09E-D50DA69C73EB}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3 - Infrastructure", "3 - Infrastructure", "{1F171346-C50D-4BA8-8ED2-72071D6B01CD}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3.1 - CrossCutting", "3.1 - CrossCutting", "{72AB536D-78CC-4F62-A448-61CB5B9DDC7C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FinanceControl.Infrastructure.CrossCutting.Identity", "FinanceControl.Infrastructure.CrossCutting.Identity\FinanceControl.Infrastructure.CrossCutting.Identity.csproj", "{A489B103-E1C4-4A7E-8AAB-13C94B967F3D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FinanceControl.Infrastructure.CrossCutting.IoC", "FinanceControl.Infrastructure.CrossCutting.IoC\FinanceControl.Infrastructure.CrossCutting.IoC.csproj", "{E193E9DF-F57B-4982-8981-0D6D21848FC7}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2 - Domain", "2 - Domain", "{C15D97BA-F913-49CE-9AC9-1509EA0E700C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FinanceControl.Domain", "FinanceControl.Domain\FinanceControl.Domain.csproj", "{001A8622-A566-472B-AF59-B2DF8C411612}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FinanceControl.UI", "FinanceControl.UI\FinanceControl.UI.csproj", "{72999A4E-655F-4B21-B439-C8C86AD9D89C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A489B103-E1C4-4A7E-8AAB-13C94B967F3D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A489B103-E1C4-4A7E-8AAB-13C94B967F3D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A489B103-E1C4-4A7E-8AAB-13C94B967F3D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A489B103-E1C4-4A7E-8AAB-13C94B967F3D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E193E9DF-F57B-4982-8981-0D6D21848FC7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E193E9DF-F57B-4982-8981-0D6D21848FC7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E193E9DF-F57B-4982-8981-0D6D21848FC7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E193E9DF-F57B-4982-8981-0D6D21848FC7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{001A8622-A566-472B-AF59-B2DF8C411612}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{001A8622-A566-472B-AF59-B2DF8C411612}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{001A8622-A566-472B-AF59-B2DF8C411612}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{001A8622-A566-472B-AF59-B2DF8C411612}.Release|Any CPU.Build.0 = Release|Any CPU
+		{72999A4E-655F-4B21-B439-C8C86AD9D89C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{72999A4E-655F-4B21-B439-C8C86AD9D89C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{72999A4E-655F-4B21-B439-C8C86AD9D89C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{72999A4E-655F-4B21-B439-C8C86AD9D89C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{72AB536D-78CC-4F62-A448-61CB5B9DDC7C} = {1F171346-C50D-4BA8-8ED2-72071D6B01CD}
+		{A489B103-E1C4-4A7E-8AAB-13C94B967F3D} = {72AB536D-78CC-4F62-A448-61CB5B9DDC7C}
+		{E193E9DF-F57B-4982-8981-0D6D21848FC7} = {72AB536D-78CC-4F62-A448-61CB5B9DDC7C}
+		{001A8622-A566-472B-AF59-B2DF8C411612} = {C15D97BA-F913-49CE-9AC9-1509EA0E700C}
+		{72999A4E-655F-4B21-B439-C8C86AD9D89C} = {D5C350E7-3A47-46AB-A09E-D50DA69C73EB}
+	EndGlobalSection
+EndGlobal
